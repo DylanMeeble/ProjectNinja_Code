@@ -7,3 +7,5 @@ global.brato_alive = true;
 image_speed = 1/6;
 
 gamepad_set_axis_deadzone(0,0.3);
+
+//Adding for testing purposes
