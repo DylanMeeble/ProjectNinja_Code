@@ -1,6 +1,7 @@
 ///Brato Controls
 walk_speed = 4;
 run_speed = 6;
+depth = -y;
 
 key_right = keyboard_check(vk_right) || gamepad_axis_value(0,gp_axislh) > 0 || gamepad_button_check(0,gp_padr);
 key_left = keyboard_check(vk_left) || gamepad_axis_value(0,gp_axislh) < 0 || gamepad_button_check(0,gp_padl);
