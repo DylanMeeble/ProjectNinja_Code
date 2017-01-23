@@ -4,6 +4,7 @@ if global.brato_health = 0
 if global.brato_alive = true
 {
     global.brato_alive = false;
+    global.fighting = false;
     with(obj_brato_battle)
     {
         instance_destroy();

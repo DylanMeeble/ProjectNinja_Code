@@ -2,8 +2,8 @@
 global.canMove = false;
 global.face_direction = other.enterDirection
 speed = 0;
-player_x = other.target_x;
-player_y = other.target_y;
+global.player_x = other.target_x;
+global.player_y = other.target_y;
 
 //Room Transition
 if !instance_exists (obj_roomTransition)
