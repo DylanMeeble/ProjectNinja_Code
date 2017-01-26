@@ -15,14 +15,14 @@ x_direction = key_right - key_left;
 y_direction = key_down - key_up;
 
 //Move
-if (global.canMove == true)
+if global.canMove = true
 if !key_action2
 {
 hspeed = x_direction * walk_speed;
 vspeed = y_direction * walk_speed;
 }
 
-if (global.canMove == true)
+if global.canMove = true
 if key_action2
 {
 hspeed = x_direction * run_speed;
@@ -38,6 +38,11 @@ else if speed > walk_speed
 if key_action2
 {
     speed = run_speed;
+}
+
+if global.playing_cutscene
+{
+    global.canMove = false;
 }
 
 //Animation changes
